@@ -1,13 +1,50 @@
 {
-  "TOKEN": "توكن_البوت",
-  "ticketCategoryID": "ايدي_الكاتاجوري",
-  "ticketNumber": 2,
-  "BACKGROUND": "صورة_الباجراوند",
-  "SECTIONS": [
+  "ticketCategories": [
     {
-      "name": "اسم_القسم",
-      "roleID": "ايدي_الرتبة",
-      "image": "صورة_القسم"
+      "ticketCategoryID": "category1ID",
+      "ticketNumber": 4,
+      "BACKGROUND": "background1.png",
+      "SECTIONS": [
+        {
+          "name": "للدعم الفني او الاستفسارات :❓",
+          "roleID": "role1ID",
+          "image": "support_image.png"
+        },
+        {
+          "name": "اسم_القسم_1",
+          "roleID": "role2ID",
+          "image": "image1.png"
+        }
+      ]
+    },
+    {
+      "ticketCategoryID": "category2ID",
+      "ticketNumber": 3,
+      "BACKGROUND": "background2.png",
+      "SECTIONS": [
+        {
+          "name": "قسم_آخر",
+          "roleID": "role3ID",
+          "image": "section_image2.png"
+        },
+        {
+          "name": "اسم_القسم_2",
+          "roleID": "role4ID",
+          "image": "image2.png"
+        }
+      ]
+    },
+    {
+      "ticketCategoryID": "category3ID",
+      "ticketNumber": 2,
+      "BACKGROUND": "background3.png",
+      "SECTIONS": [
+        {
+          "name": "القسم الثالث",
+          "roleID": "role5ID",
+          "image": "section_image3.png"
+        }
+      ]
     }
   ]
 }
